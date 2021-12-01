@@ -1,0 +1,119 @@
+#jumbotron-body {
+    background-color: #0981f2;
+}
+
+a, a:hover,a:click, a:visited{ 
+    outline: 0; 
+    border:none;
+    /*outline:none;*/
+    text-decoration:none;
+    color:inherit;
+    
+
+}
+
+
+.employeewelcome {
+    background-color: black;
+    color: #fff;
+}
+
+.employeecard,
+.itemscard,
+.adjustpricecard,
+.restockorsoldcard,
+.searchinventorycard {
+    margin-bottom: 50px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.atag {
+    padding: 0px;
+    white-space: pre-wrap;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: calc(100% + 1vw + 1vh);
+}
+
+
+
+.card {
+  margin-top: 55px;
+  background-color: rgb(51, 49, 184);
+  font-family: 'Times New Roman', Times, serif;
+  /*background-image: url("../images/latched.jpeg");*/
+  background-repeat: repeat-x;
+}
+
+
+.card1, .card3, .card5 {
+    background-color: rgb(0, 174, 255);
+    margin: 20px;
+    height: auto;
+    width: auto;
+}
+
+.card2, .card4 {
+    background-color: rgb(0, 174, 255);
+    margin: 20px;
+    height: auto;
+    width: auto;
+    
+}
+
+img {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+ }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+    max-width: fit-content;
+   
+}
+
+.card > h1{
+    color: black;
+    font-size: 84px;
+    font-style: italic;
+    background-color: white;
+    text-shadow: 3px 3px 10px  green;
+}
+
+.card-body > h2{
+    text-emphasis-style:initial ;
+    text-align: center;
+    text-transform: inherit;
+    text-decoration: underline;
+    color: black;
+    }
+
+p {
+    color: black;
+}
+
+.card-text2 {
+    color: black;
+}
+
+
+.employee >h1{
+    color: black;
+    font-size: 84px;
+    font-style: italic;
+    background-color: white;
+    text-shadow: 3px 3px 10px  gold;
+}
+
+legend, label{
+    color: #fff;
+}
