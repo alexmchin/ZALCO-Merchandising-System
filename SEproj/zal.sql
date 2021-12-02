@@ -32,7 +32,7 @@ CREATE TABLE `inventory` (
   `Product Name` varchar(70) NOT NULL,
   `Stock on Shelf` int(30) NOT NULL,
   `Expiry Date` date NOT NULL,
-  `Lot Number` int(45) NOT NULL,
+  `Lot Number` varchar(45) NOT NULL,
   `Picture of Shelf` longblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
