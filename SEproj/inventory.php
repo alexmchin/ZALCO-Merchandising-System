@@ -1,5 +1,5 @@
 <?php
-include 'connect.php';
+require_once 'connect.php';
     $conn = new mysqli("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
 
     if(empty($_POST['productname']) && empty($_POST['stoockonshelf']) && empty($_POST['expirydate'])&& empty($_POST['lotnumber'])){
