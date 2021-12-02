@@ -1,0 +1,44 @@
+.compAct{
+  background: #1E90FF;
+  font-family: verdana;
+}
+.compActForm{
+  background: #fff;
+  padding: 20px 40px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.compAct h2{
+  color: 	#000000;
+  text-align: center;
+}
+.compActForm label,input{
+  display: block;
+  margin: 18px 0;
+}
+.compActForm label{
+  color: #777;
+}
+
+.compActForm input[type='text'],
+textarea{
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+.compActForm input[type='submit']{
+  margin: 24px auto;
+  font-size: 18px;
+  background: #1E90FF ;
+  color: #fff;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.compActForm .error{
+  color: red;
+}
+
