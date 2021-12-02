@@ -1,30 +1,19 @@
-<?php
-/*$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "zalco";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT id, firstname, lastname FROM MyGuests";
-$result = $conn->query($sql);
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - supermarketName: ". $row["supermarketName"] . "<br>";
+<table>
+<tr>
+    <td>Product Name</td>
+    <td>Remaining Shelf Life</td>
+</tr>
+<!-- <?php
+if(mysql_num_rows($raw_results) > 0){ 
+        while($results = mysql_fetch_array($raw_results)){
+            echo "<tr><td>".$results['id']."</td>";
+            echo "<td>".$results['age']."</td>";
+            echo "<td>".$results['course']."</td>";
+            echo "<td>".$results['gender']."</td></tr>";
+        }
     }
-} else {
-    echo "0 results";
-}
-
-$conn->close();*/
-?>
+?> -->
+</table>
 
 <?php
     class ProductExpiryReport{
